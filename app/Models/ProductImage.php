@@ -28,6 +28,7 @@ class ProductImage extends Model
     protected function casts(): array
     {
         return [
+            'sort_order' => 'integer',
             'is_primary' => 'boolean',
         ];
     }
